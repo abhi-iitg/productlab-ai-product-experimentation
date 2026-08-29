@@ -255,7 +255,7 @@ cp .env.example frontend/.env.local
 
 | Variable | Purpose | Local default |
 |---|---|---|
-| `APP_NAME` | Display name returned by `GET /health` | `AI Product Experiment Platform API` |
+| `APP_NAME` | Display name returned by `GET /health` | `ProductLab-AI Product Experimentation API` |
 | `APP_ENV` | `development` \| `test` \| `production` | `development` |
 | `APP_DEBUG` | Enables debug behavior | `true` |
 | `API_PREFIX` | Prefix all API routes are mounted under | `/api/v1` |
