@@ -24,7 +24,7 @@ export function Header() {
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link href="/projects" className="flex items-center gap-2 font-semibold">
           <FlaskConical className="size-5 text-primary" aria-hidden="true" />
-          <span className="text-sm sm:text-base">AI Product Experiment Platform</span>
+          <span className="text-sm sm:text-base">ProductLab-AI Product Experimentation</span>
         </Link>
 
         <nav className="hidden items-center gap-1 sm:flex" aria-label="Primary">
