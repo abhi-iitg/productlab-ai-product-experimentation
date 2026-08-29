@@ -9,7 +9,7 @@ from app.core.config import Settings, get_settings
 def test_settings_defaults() -> None:
     settings = Settings(_env_file=None)
 
-    assert settings.APP_NAME == "AI Product Experiment Platform API"
+    assert settings.APP_NAME == "ProductLab-AI Product Experimentation API"
     assert settings.APP_ENV == "development"
     assert settings.APP_DEBUG is True
     assert settings.API_PREFIX == "/api/v1"
