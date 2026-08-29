@@ -635,7 +635,7 @@ sequenceDiagram
     F->>An: analyze(project_id, experiment_id)
     An->>DB: Read persisted SimulationRuns
     An->>An: Verify eligibility (status, >=1 completed run)
-    An->>An: Aggregate coverage, per-variant metrics, theme counts,\nevidence coverage, failure breakdown, persona disagreement
+    An->>An: Aggregate coverage, per-variant metrics, theme counts,evidence coverage, failure breakdown, persona disagreement
     An-->>F: AnalyticsResponse (incl. data_quality_flags)
     F-->>U: Deterministic analytics (no LLM call, no write)
 
@@ -648,7 +648,7 @@ sequenceDiagram
     IG->>IG: Build bounded InsightContext (<= INSIGHT_CONTEXT_CHAR_LIMIT)
     IG->>IL: Request structured Insight clustering
     IL-->>IG: Raw JSON response
-    IG->>IG: Parse + validate (Pydantic: run IDs, evidence IDs,\nfrequency, persona_count — one pass, whole-batch)
+    IG->>IG: Parse + validate (Pydantic: run IDs, evidence IDs,frequency, persona_count — one pass, whole-batch)
     IG->>DB: Persist entire Insight batch atomically
     IG-->>F: Insight[]
     F-->>U: Generated Insights
@@ -659,11 +659,11 @@ sequenceDiagram
     DM->>An: analyze(project_id, experiment_id)
     An-->>DM: AnalyticsResponse (fresh, never cached)
     DM->>DB: Read persisted Insights
-    DM->>DM: Build DecisionContext (objective, hypothesis, success metric,\nanalytics, Insights, decision definitions)
+    DM->>DM: Build DecisionContext (objective, hypothesis, success metric,analytics, Insights, decision definitions)
     DM->>DL: Request structured Decision Memo
     DL-->>DM: Raw JSON response
     DM->>DM: Parse + validate (Pydantic: Insight-reference check)
-    DM->>DM: Apply decision-safety rules (Proceed language,\nsevere-warning block, evidence-uncertainty, forbidden phrases)
+    DM->>DM: Apply decision-safety rules (Proceed language,severe-warning block, evidence-uncertainty, forbidden phrases)
     alt safe
         DM->>DB: Persist one DecisionMemo
         DM-->>F: DecisionMemo
