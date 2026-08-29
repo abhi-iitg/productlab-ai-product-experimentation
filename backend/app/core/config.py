@@ -21,7 +21,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    APP_NAME: str = "AI Product Experiment Platform API"
+    APP_NAME: str = "ProductLab-AI Product Experimentation API"
     APP_ENV: str = "development"
     APP_DEBUG: bool = True
     APP_VERSION: str = "0.1.0"
