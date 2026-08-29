@@ -655,7 +655,7 @@ sequenceDiagram
 
     U->>F: POST .../decision-memo/generate
     F->>DM: generate(project_id, experiment_id)
-    DM->>DM: Require >=1 persisted Insight; reject duplicate memo
+    DM->>DM: Require >=1 persisted Insight, reject duplicate memo
     DM->>An: analyze(project_id, experiment_id)
     An-->>DM: AnalyticsResponse (fresh, never cached)
     DM->>DB: Read persisted Insights
