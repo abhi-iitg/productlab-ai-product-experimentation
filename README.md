@@ -33,6 +33,21 @@ An AI-assisted product discovery and experimentation platform that uses evidence
 - [Connect](#connect)
 - [License](#license)
 
+## 🚀 Live Demo
+
+You can access the live, fully deployed version of this application here:
+👉 **[ProductLab AI - Live Web Application](https://productlab-ai-product-experimenta-git-91982c-mrabhishekaaa-4314.vercel.app/projects)**
+
+### 🛠️ Tech Stack & Deployment Architecture
+* **Frontend:** Next.js hosted on **Vercel**
+* **Backend:** FastAPI hosted on **Render**
+* **Database:** PostgreSQL hosted serverless on **Neon**
+
+### 📝 Deployment Notes
+* The backend automatically runs database schema migrations via `alembic upgrade head` upon deployment.
+* CORS policies have been generalized (`*`) to facilitate direct, serverless communication between the detached frontend and backend architectures.
+* *Note: If AI features return a `503` or a fallback state, it is because `OPENAI_API_KEY` is deliberately left unset on the production environment variables configuration, which is the expected behavior per design.*
+
 ## Screenshots
 
 | | |
