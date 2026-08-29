@@ -7,6 +7,16 @@ An AI-assisted product discovery and experimentation platform that uses evidence
 
 ## Table of Contents
 
+- [Live Demo](#live-demo)
+- [Tech Stack & Architecture](#tech-stack--architecture)
+- [Local Setup & Installation](#local-setup--installation)
+  - [Backend Setup (FastAPI)](#backend-setup-fastapi)
+  - [Frontend Setup (Nextjs)](#frontend-setup-nextjs)
+- [Production Cloud Deployment](#production-cloud-deployment)
+  - [1. Database Setup (Neon Postgres)](#1-database-setup-neon-postgres)
+  - [2. Backend Setup (Render)](#2-backend-setup-render)
+  - [3. Frontend Setup (Vercel)](#3-frontend-setup-vercel)
+- [Deployment Notes](#deployment-notes)
 - [Screenshots](#screenshots)
   - [Mobile workspace](#mobile-workspace)
 - [Demo and case study](#demo-and-case-study)
@@ -33,17 +43,27 @@ An AI-assisted product discovery and experimentation platform that uses evidence
 - [Connect](#connect)
 - [License](#license)
 
-## 🚀 Live Demo
+## Live Demo
 
 You can access the live, fully deployed version of this application here:
 👉 **[ProductLab AI - Live Web Application](https://productlab-ai-product-experimenta-git-91982c-mrabhishekaaa-4314.vercel.app/projects)**
 
-### 🛠️ Tech Stack & Deployment Architecture
-* **Frontend:** Next.js hosted on **Vercel**
-* **Backend:** FastAPI hosted on **Render**
-* **Database:** PostgreSQL hosted serverless on **Neon**
+## Tech Stack & Architecture
+* **Python**
+* **Next.js**
+* **FastAPI**
+* **Neon**
 
-### 📝 Deployment Notes
+## Local Setup & Installation
+### Backend Setup (FastAPI)
+### Frontend Setup (Nextjs)
+
+## Production Cloud Deployment
+### 1. Database Setup (Neon Postgres)
+### 2. Backend Setup (Render)
+### 3. Frontend Setup (Vercel)
+
+## Deployment Notes
 * The backend automatically runs database schema migrations via `alembic upgrade head` upon deployment.
 * CORS policies have been generalized (`*`) to facilitate direct, serverless communication between the detached frontend and backend architectures.
 * *Note: If AI features return a `503` or a fallback state, it is because `OPENAI_API_KEY` is deliberately left unset on the production environment variables configuration, which is the expected behavior per design.*
