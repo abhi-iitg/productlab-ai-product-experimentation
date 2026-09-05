@@ -425,16 +425,6 @@ My Portfolio & Profiles:
 - **[Portfolio](https://abhishek-kg-portfolio.vercel.app/)**
 - **[LinkedIn](https://www.linkedin.com/in/abhishekkumargond/)**
 
-## Architecture Diagram Source
-
-The editable SVG architecture diagram is stored at:
-
-```text
-docs/architecture/productlab-ai-architecture.svg
-```
-
-Upload the SVG to this exact path in the repository so the README visual renders correctly on GitHub.
-
 ---
 
 ## License
