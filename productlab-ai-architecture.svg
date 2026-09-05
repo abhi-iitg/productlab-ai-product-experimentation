@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop offset="0%" stop-color="#f7f9ff"/><stop offset="100%" stop-color="#eef5ff"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".12"/></filter><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#607da3"/></marker></defs>
+<rect width="1600" height="820" rx="28" fill="url(#bg)"/>
+<text x="800" y="55" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#172b4d">ProductLab-AI — Product Experimentation Architecture</text>
+<text x="800" y="88" text-anchor="middle" font-family="Arial" font-size="17" fill="#61758d">Evidence-grounded discovery → controlled experimentation → safer product decisions</text>
+<g font-family="Arial" filter="url(#s)">
+<rect x="35" y="155" width="220" height="170" rx="18" fill="#fff" stroke="#9fc5ef" stroke-width="2"/><rect x="285" y="155" width="235" height="170" rx="18" fill="#fff" stroke="#9fdccf" stroke-width="2"/><rect x="550" y="125" width="270" height="230" rx="18" fill="#fff" stroke="#b9a8ee" stroke-width="2"/><rect x="850" y="155" width="245" height="170" rx="18" fill="#fff" stroke="#f0c58d" stroke-width="2"/><rect x="1125" y="125" width="440" height="230" rx="18" fill="#fff" stroke="#d7afe8" stroke-width="2"/>
+</g>
+<g font-family="Arial" fill="#172b4d" font-size="17">
+<text x="145" y="195" text-anchor="middle" font-size="22" font-weight="700">Product Inputs</text><text x="145" y="235" text-anchor="middle">Product brief</text><text x="145" y="265" text-anchor="middle">Research evidence</text><text x="145" y="295" text-anchor="middle">Assumptions &amp; goals</text>
+<text x="402" y="195" text-anchor="middle" font-size="22" font-weight="700">Evidence Layer</text><text x="402" y="235" text-anchor="middle">Evidence library</text><text x="402" y="265" text-anchor="middle">Grounded personas</text><text x="402" y="295" text-anchor="middle">Traceable references</text>
+<text x="685" y="165" text-anchor="middle" font-size="22" font-weight="700">AI Experiment Engine</text><text x="685" y="205" text-anchor="middle">Persona generation</text><text x="685" y="235" text-anchor="middle">Variant A / B simulation</text><text x="685" y="265" text-anchor="middle">Structured JSON outputs</text><text x="685" y="295" text-anchor="middle">Schema validation</text><text x="685" y="325" text-anchor="middle">Failure capture</text>
+<text x="972" y="195" text-anchor="middle" font-size="22" font-weight="700">Decision Analytics</text><text x="972" y="235" text-anchor="middle">Deterministic metrics</text><text x="972" y="265" text-anchor="middle">Theme analysis</text><text x="972" y="295" text-anchor="middle">Data-quality checks</text>
+<text x="1345" y="165" text-anchor="middle" font-size="22" font-weight="700">Decision Layer</text><text x="1345" y="205" text-anchor="middle">Evidence-linked Insights</text><text x="1345" y="235" text-anchor="middle">Proceed / Iterate / Stop memo</text><text x="1345" y="265" text-anchor="middle">Real-user experiment plan</text><text x="1345" y="295" text-anchor="middle">Synthetic-vs-human comparison</text>
+</g>
+<g stroke="#607da3" stroke-width="4" fill="none" marker-end="url(#a)"><path d="M255 240H275"/><path d="M520 240H540"/><path d="M820 240H840"/><path d="M1095 240H1115"/></g>
+<rect x="210" y="465" width="1180" height="205" rx="22" fill="#fff" stroke="#b7c9df" stroke-width="2" filter="url(#s)"/>
+<text x="800" y="510" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#172b4d">Validation &amp; Learning Loop</text>
+<g font-family="Arial" font-size="18" fill="#38536f"><text x="300" y="560">✓ Strict Pydantic validation</text><text x="300" y="605">✓ No unvalidated AI output persisted</text><text x="720" y="560">✓ Human feedback capture</text><text x="720" y="605">✓ Exact theme comparison</text><text x="1080" y="560">✓ Safety rules for recommendations</text><text x="1080" y="605">✓ Next real-user experiment</text></g>
+<path d="M1345 355V425H800V455" stroke="#607da3" stroke-width="4" fill="none" marker-end="url(#a)"/>
+<text x="800" y="735" text-anchor="middle" font-family="Arial" font-size="17" fill="#61758d">Frontend: Next.js • Backend: FastAPI • Database: SQLite • AI: OpenAI abstraction • Testing: pytest + Playwright</text>
+</svg>
