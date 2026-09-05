@@ -3,7 +3,7 @@
 An AI-assisted product discovery and experimentation platform that turns existing research evidence into grounded synthetic personas, controlled product experiments, deterministic analytics, and safer real-user validation decisions.
 
 <p align="center">
-  <a href="https://productlab-ai-product-experimenta-git-91982c-mrabhishekaaa-4314.vercel.app/projects"><img src="https://img.shields.io/badge/🚀%20Live%20MVP-Open%20MoneyFlow-0f766e?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live MVP"/></a>
+  <a href="https://productlab-ai-product-experimenta-git-91982c-mrabhishekaaa-4314.vercel.app/projects"><img src="https://img.shields.io/badge/🚀%20Live%20MVP-Open%20ProductLab-AI-0f766e?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live"/></a>
   <a href="https://github.com/abhi-iitg/productlab-ai-product-experimentation"><img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
   <a href="https://abhishek-kg-portfolio-pied.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-2563eb?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/abhishekkumargond/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -40,7 +40,6 @@ ProductLab-AI helps product teams move from **“an idea on a whiteboard”** to
 
 ## Table of Contents
 
-- [Live Demo](#live-demo)
 - [Tech Stack & Architecture](#tech-stack--architecture)
 - [Local Setup & Installation](#local-setup--installation)
   - [Backend Setup (FastAPI)](#backend-setup-fastapi)
@@ -75,11 +74,6 @@ ProductLab-AI helps product teams move from **“an idea on a whiteboard”** to
 - [Future Extensions](#future-extensions)
 - [Connect](#connect)
 - [License](#license)
-
-## Live Demo
-
-You can access the live, fully deployed version of this application here:
-👉 **[ProductLab AI - Live Web Application](https://productlab-ai-product-experimenta-git-91982c-mrabhishekaaa-4314.vercel.app/projects)**
 
 ## Tech Stack & Architecture
 * **Python**
@@ -417,15 +411,10 @@ Explicitly out of scope for this build, documented as possible future directions
 - Containerized or cloud deployment
 
 ## Connect
-
+Abhishek Kumar Gond 
+B.Tech--Chemical Engineering | IITg
 If you found this project interesting and have feedback, feel free to star and fork the repository, and follow for more such insightful projects!
-
-My Portfolio & Profiles: 
-- **Email : mr.abhishekaaa@gmail.com**
-- **[Portfolio](https://abhishek-kg-portfolio.vercel.app/)**
-- **[LinkedIn](https://www.linkedin.com/in/abhishekkumargond/)**
-- **[GitHub](https://github.com/abhi-iitg/productlab-ai-product-experimentation)**
-  
+ 
 ---
 
 ## License
