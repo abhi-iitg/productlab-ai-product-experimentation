@@ -2,6 +2,14 @@
 
 An AI-assisted product discovery and experimentation platform that turns existing research evidence into grounded synthetic personas, controlled product experiments, deterministic analytics, and safer real-user validation decisions.
 
+<p align="center">
+  <a href="https://productlab-ai-product-experimenta-git-91982c-mrabhishekaaa-4314.vercel.app/projects"><img src="https://img.shields.io/badge/🚀%20Live%20MVP-Open%20MoneyFlow-0f766e?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live MVP"/></a>
+  <a href="https://github.com/abhi-iitg/productlab-ai-product-experimentation"><img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <a href="https://abhishek-kg-portfolio-pied.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-2563eb?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/abhishekkumargond/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:mr.abhishekaa@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-b91c1c?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
+
 [![CI](https://github.com/abhi-iitg/productlab-ai-product-experimentation/actions/workflows/ci.yml/badge.svg)](https://github.com/abhi-iitg/productlab-ai-product-experimentation/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
