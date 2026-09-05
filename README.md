@@ -5,10 +5,6 @@ An AI-assisted product discovery and experimentation platform that turns existin
 [![CI](https://github.com/abhi-iitg/productlab-ai-product-experimentation/actions/workflows/ci.yml/badge.svg)](https://github.com/abhi-iitg/productlab-ai-product-experimentation/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-<p align="center">
-  <a href="https://productlab-ai-product-experimenta-git-91982c-mrabhishekaaa-4314.vercel.app/projects">Live Demo</a> •
-</p>
-
 ## Executive Summary
 
 ProductLab-AI helps product teams move from **“an idea on a whiteboard”** to a structured, evidence-backed real-user experiment. It combines evidence-grounded synthetic personas, controlled Variant A/B simulations, strict AI-output validation, deterministic analytics, evidence-linked insights, and decision-safety rules.
