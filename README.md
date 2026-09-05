@@ -7,7 +7,6 @@ An AI-assisted product discovery and experimentation platform that turns existin
 
 <p align="center">
   <a href="https://productlab-ai-product-experimenta-git-91982c-mrabhishekaaa-4314.vercel.app/projects">Live Demo</a> •
-  <a href="https://github.com/abhi-iitg/productlab-ai-product-experimentation">GitHub</a>
 </p>
 
 ## Executive Summary
@@ -421,7 +420,8 @@ My Portfolio & Profiles:
 - **Email : mr.abhishekaaa@gmail.com**
 - **[Portfolio](https://abhishek-kg-portfolio.vercel.app/)**
 - **[LinkedIn](https://www.linkedin.com/in/abhishekkumargond/)**
-
+- **[GitHub](https://github.com/abhi-iitg/productlab-ai-product-experimentation)**
+  
 ---
 
 ## License
